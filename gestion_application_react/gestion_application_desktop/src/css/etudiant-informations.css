@@ -1,0 +1,95 @@
+.main-container {
+
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+}
+
+.ajouter {
+  margin: 10px 10px 0px 0px;
+  color: white;
+  background-color: #E21C21;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  text-align: center;
+}
+
+.each-info-border {
+  color: #FFF;
+  background-color: #444444;
+  padding: 5px;
+  width: 280px;
+  border: 1px solid white;
+  text-align: center
+}
+
+.each-info-border2 {
+  color: #FFF;
+  background-color: #FFF;
+  padding: 5px;
+  width: 280px;
+  border: 1px solid white;
+  text-align: center;
+}
+
+.each-info-borderCheck {
+  color: #FFF;
+  background-color: #444444;
+  padding: 5px;
+  width: 105px;
+  border: 1px solid white;
+  text-align: center;
+}
+
+.each-info-suivi {
+  color: #FFF;
+  background-color: #444444;
+  padding: 5px;
+  width: 230px;
+  border: 1px solid white;
+  text-align: center;
+}
+
+.each-info-suivi2 {
+  color: #FFF;
+  background-color: #FFF;
+  padding: 5px;
+  width: 230px;
+  border: 1px solid white;
+  text-align: center;
+}
+
+.dateEntretient {
+  color: #FFF;
+  background-color: #444444;
+  padding: 5px;
+  width: 200px;
+  border: 1px solid white;
+  text-align: center;
+}
+
+.dateEntretient2 {
+  color: #FFF;
+  background-color: #FFF;
+  padding: 5px;
+  width: 200px;
+  border: 1px solid white;
+  text-align: center;
+}
